@@ -1,0 +1,359 @@
+
+/**************************************/
+/*** GENERAL PARA TODOS LOS TAMAÑOS ***/
+/**************************************/
+
+/*Importo font general*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+app-root {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*Formato de la Barra de Navegación  */  
+
+nav{
+    border-bottom:1px solid #4F5050;
+}
+
+.navbar-light .navbar-brand {
+    color:#8c6b0a;
+    font-weight: bold;
+    padding-right:1em;
+}
+
+
+.d-lg-inline-block {
+    display: inline-block!important;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    padding:10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#5A5A55;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color:darkgray;
+}
+
+
+
+/* Varios */
+
+/*Impide que el contenido se sitúe debajo de la barra de navegación*/
+
+body { 
+    padding-top: 65px; 
+    background-color:#f8f9fa;
+    margin: 0;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 0em;
+}
+
+p {
+    text-align: center;
+    margin-bottom:0em;
+}
+
+h4{
+    text-align:center; 
+    line-height:80px;
+    font-weight:normal;
+}
+
+.jumbotron {
+    padding:1em;
+    background-color:#d1e0e0;
+}
+
+form {
+    margin:0;
+}
+
+
+.form-control {
+    margin:0em;
+    padding:0em;
+    width:100%;
+}
+
+.alert {
+    margin-bottom:0.5;
+}
+
+.input {
+    margin:0em;
+}
+
+.divFormulario {
+    margin-top:1%;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.was-validated {
+    margin: auto;
+    width: 50%;
+    padding: 10px;    
+}
+
+
+/* Listado Tabla de Datos */
+
+
+th {
+    
+    background-color: white;
+    color:#8c6b0a;
+}
+
+table {
+  border: 2px solid #8c6b0a;
+  border-radius: 15px 50px;
+}
+
+.tablaDatos {
+  margin-bottom:2em;
+  padding:2em;
+  font-size: 1.1em;
+    
+}
+
+.divIndex {
+    padding-top:7%;
+}
+
+.divIndex h1 {
+    margin-bottom:2em;
+}
+
+
+
+
+/*Footer  */
+
+.footer {
+  
+  height: 3em;
+  border-radius: 2px;
+  color:#334d4d;
+  background-color:#d1e0e0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+ 
+}
+
+.footer a {  
+  font-size:0.75em; 
+  font-weight:bold;
+  /* centramos verticalmente */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/******************************************************/
+/*** ADAPTACIÓN RESPONSIVE A LOS DIFERENTES TAMAÑOS ***/
+/******************************************************/
+
+
+/**************************************/
+/************* MÓVILES ****************/
+/**************************************/
+
+
+
+@media only screen and (max-width: 375px) {  
+
+
+/* Pantalla Iphone 6/7/8 - una columna*/
+
+.display-4 {
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.lead {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.divFormulario {
+    margin-top:5%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.was-validated {
+    margin-bottom:0em;
+    width: 100%;
+    padding: 5px;    
+}
+
+.jumbotron {
+    margin-bottom:1em;
+}
+
+.alert {
+    margin:0;
+    padding:0;
+    padding-left:5em;
+}
+
+#btnVerTareas {
+    display:none;
+}
+
+.tareasTabla {
+     display:none;
+}
+
+.nav-item {
+    font-size: 25px;
+}
+
+
+.footer {
+    height: 2em;
+}
+
+}
+
+/**************************************/
+/************* IPAD *******************/
+/**************************************/
+
+
+
+@media only screen and (min-width: 376px) and (max-width: 768px){ 
+
+
+/* Pantalla Ipad 6/7/8 - dos columnas*/
+
+
+.divFormulario {
+    margin-top:10%;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.was-validated {
+    margin: auto;
+    width: 75%;
+    padding: 25px;  
+}
+
+#btnVerTareas {
+    display:none;
+}
+
+.tareasTarjeta {
+     display:none;
+}
+
+.nav-item {
+    font-size: 30px;
+}
+
+}
+
+
+/**************************************/
+/********** OTRAS TABLETAS ************/
+/**************************************/
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1200px){ 
+
+
+/* Pantallas medias/grandes - tres columnas*/
+                                                                  
+.divFormulario {
+    margin-top:10%;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.was-validated {
+    margin: auto;
+    width: 75%;
+    padding: 25px;    
+}
+
+.tareasTarjeta {
+     display:none;
+}
+
+
+    
+}
+
+/**************************************/
+/************ SOBREMESA ***************/
+/**************************************/
+
+
+@media only screen and (min-width: 1201px) {  
+
+/
+/* Pantallas más de tamaño máximo - cuatro columnas*/
+/* Desktop - Laptop */
+
+body {
+    /* por bug del navegador sin una primera clase vacía no funcionan el resto */
+}
+
+.tareasTarjeta {
+         display:none;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

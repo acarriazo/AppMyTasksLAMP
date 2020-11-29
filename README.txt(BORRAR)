@@ -1,0 +1,38 @@
+Software Instalado para desarrollo:
+===================================
+Linux (Ver Debian Linux 10 buster)
+PHP (Ver 7.3.19-1~deb10u1)
+Mysql (Ver 8.0.22 for Linux on x86_64 (MySQL Community Server - GPL)
+Apache Server (Ver Apache/2.4.38 (Debian))
+Bootstrap (Ver 4.5.2)
+phpMyAdmin (Ver 5.0.4)
+
+Requisitos proyecto:
+====================
+Desarrollo de un sistema de gestión de tareas.
+
+Detalles según breafing code_test_myapp.pdf
+
+Descripción del proyecto:
+=========================
+Aplicación web simple que utiliza el stack LAMP:
+
+    - Linux Debian 10 como sistema base. 
+    - Apache Server como servidor web.
+    - MySql como base de datos backend.
+    - PHP como lenguaje de programación backend.
+    - Frontend desarrollado con html, css y Bootstrap.
+
+El proyecto permite la creación, modificación, eliminación y visualización de 
+tareas. 
+Los datos se almacenan en la base  de datos MySql. Detalles de la base de datos: 
+nombre de la BBDD: tareas. 
+tablas: listaTareas
+    campos de datos:    idTarea / Autonumérico incrementral.
+                        nombreTarea / Texto
+                        comentariosTarea / Texto
+                        fechaTopeTarea /Fecha
+                        completadatarea / Booleano
+
+Mediante css y Bootstrap se elabora una respuesta responsive y adaptable a diversos tamaños de pantalla. 
+Se han establecido cuatro breakpoints: móvil (Iphone 6 o similar), Ipad, tabletas grandes y dispositivos de sobremesa. La plicación se adapta visualmente a estos tamaños.

@@ -1,0 +1,11 @@
+<p><strong><span style="text-decoration: underline;">Software Instalado para desarrollo:</span></strong><br /><br /><strong>Linux</strong> (Ver Debian Linux 10 buster)<br /><strong>PHP</strong> (Ver 7.3.19-1~deb10u1)<br /><strong>Mysql</strong> (Ver 8.0.22 for Linux on x86_64 (MySQL Community Server - GPL)<br /><strong>Apache Server</strong> (Ver Apache/2.4.38 (Debian))<br /><strong>Bootstrap</strong> (Ver 4.5.2)<br /><strong>phpMyAdmin</strong> (Ver 5.0.4)</p>
+<p><span style="text-decoration: underline;"><strong>Requisitos proyecto:</strong></span><br /><br />Desarrollo de un sistema de gesti&oacute;n de tareas.</p>
+<p>Detalles seg&uacute;n breafing code_test_myapp.pdf</p>
+<p><span style="text-decoration: underline;"><strong>Descripci&oacute;n del proyecto:</strong></span><br /><br />Aplicaci&oacute;n web simple que utiliza el stack LAMP:</p>
+<p style="padding-left: 40px;">- Linux Debian 10 como sistema base. <br />- Apache Server como servidor web.<br />- MySql como base de datos backend.<br />- PHP como lenguaje de programaci&oacute;n backend.<br />- Frontend desarrollado con html, css y Bootstrap.</p>
+<p>El proyecto permite la creaci&oacute;n, modificaci&oacute;n, eliminaci&oacute;n y visualizaci&oacute;n de <br />tareas.</p>
+<p><br />Los datos se almacenan en la base de<strong> datos MySql</strong>. Detalles de la base de datos:</p>
+<p style="padding-left: 40px;"><br />nombre de la BBDD: <strong>tareas</strong>. <br />tablas: <strong>listaTareas</strong><br />campos de datos:</p>
+<p style="padding-left: 80px;"><strong>idTarea</strong> / Autonum&eacute;rico incrementral.<br /><strong>nombreTarea</strong> / Texto<br /><strong>comentariosTarea</strong> / Texto<br /><strong>fechaTopeTarea</strong> /Fecha<br /><strong>completadatarea</strong> / Booleano</p>
+<p>Mediante <strong>css y Bootstrap</strong> se elabora una respuesta responsive y adaptable a diversos tama&ntilde;os de pantalla. <br />Se han establecido cuatro <strong>breakpoints</strong>: m&oacute;vil (Iphone 6 o similar), Ipad, tabletas grandes y dispositivos de sobremesa. La plicaci&oacute;n se adapta visualmente a estos tama&ntilde;os. Para tamaños grandes visualizar en pantalla completa. </p>
+<h1 style="color: #5e9ca0;">&nbsp;</h1>
